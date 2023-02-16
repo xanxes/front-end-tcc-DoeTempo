@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle `
     --text-body: #969CB3;
     --green: #33CC95;
     --blueberry: #4F79FE;
+    --turquoise700: #4FFEC7;
 }
 
 *{
@@ -32,7 +33,7 @@ html {
 }
 
 body {
-    background: var(--background);
+    background: var(--turquoise700);
     -webkit-font-smoothing: antialiased;
 
 }

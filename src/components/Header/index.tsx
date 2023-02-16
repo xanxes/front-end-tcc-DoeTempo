@@ -8,7 +8,7 @@ export function Header(){
         <Content>
         <button type="button">
             <img src={iconImg} alt="Return" />
-            <p>Voltar</p>
+            <p>VOLTAR</p>
         </button>
         </Content>
     </Container>

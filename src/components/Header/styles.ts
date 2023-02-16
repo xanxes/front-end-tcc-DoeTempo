@@ -2,20 +2,23 @@ import styled from "styled-components";
 
 export const Container = styled.header `
 
-    background: beige;
+   
 `
 
 export const Content = styled.div `
 
     max-width: 1120px;
     margin: 0 auto;
-    padding: 2rem 1rem 12rem;
+    padding: 2rem 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     button {
-        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.2rem;
         color: #FFF;
         background: var(--blueberry);
         border: 0;
