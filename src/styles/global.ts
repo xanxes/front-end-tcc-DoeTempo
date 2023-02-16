@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle `
     --green: #33CC95;
     --blueberry: #4F79FE;
     --turquoise700: #4FFEC7;
+    --maya-blue: #5BD7FC
 }
 
 *{
@@ -33,7 +34,11 @@ html {
 }
 
 body {
-    background: var(--turquoise700);
+  background-image: url(https://i.imgur.com/H2nFH9g.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100%;
+  background-color: var(--turquoise700);
     -webkit-font-smoothing: antialiased;
 
 }
@@ -55,5 +60,7 @@ button {
     opacity: 0.6;
     cursor: not-allowed;
 }
+
+
 
 `

@@ -1,23 +1,30 @@
 import styled from "styled-components";
 
 export const Container = styled.section `
+  
 
 display: flex;
 align-items: flex-end;
-background-color: beige;
-height: 75rem; 
-width: 80rem;
+padding-left: 20rem;
+
 
 `
+export const Content = styled.section `
+  
 
-export const Content = styled.image `
+  display: flex;
+  align-items: flex-end;
+  width: 60rem;
+  height: 70rem;
+ 
 
-background-color: aliceblue;
+    img {
+      width: 120%;
+
+    }
+
     
-     .peoples {
-    max-width:  60rem;
-    max-height: 50rem;
-    width: auto;
-    height: auto;
-     }
+
+    
+    
 `
