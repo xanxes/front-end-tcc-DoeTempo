@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle `
     --green: #33CC95;
     --blueberry: #4F79FE;
     --turquoise700: #4FFEC7;
+    --turquoise500: #47E6E0;
     --maya-blue: #5BD7FC
 }
 
