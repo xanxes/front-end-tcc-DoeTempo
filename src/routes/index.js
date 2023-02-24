@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Login from '../Pages/Login';
+import Login from '../Pages/Login/styles';
 export default function Routes() {
     return (
         <Switch>
