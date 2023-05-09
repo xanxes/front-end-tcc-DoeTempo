@@ -1,5 +1,25 @@
-@import "tailwindcss/base";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss/components";
+.bg-image {
+    background-image: url("./assets/img/bg-image.png");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-@import "tailwindcss/utilities";
+.bg-white-blue {
+    background-image: url("./assets/img/bg-white.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-ong {
+    background-image: url("./assets/img/bg-ongs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rc-time-picker-input {
+    border: none !important;
+}

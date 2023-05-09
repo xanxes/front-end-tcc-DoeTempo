@@ -1,46 +1,16 @@
-// @ts-nocheck
-import { Content } from './styles'
-import iconImg from '../../assets/logo-login.png'
-import authImg from '../../assets/autenticathor.png'
+import {Header} from "../../components/HeaderLogin";
+import { LoginForm } from "../../components/FormLogin";
+import DoeTempo from "../../assets/img/logo-login.svg"
 
-
-export function Login(){
+export default function Login() {
     return (
-      <Content>
-        <div class="content">
-        <div class="container">
-          <div class="row flex-row-reverse">
-          <div class="col-md-6 order-md-2" id='curve'>
-              <img src={authImg} alt="Image" class="img-fluid" />
-              </div>
-            <div class="col-md-6 contents">
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="mb-4">
-                  <img src={iconImg} alt="Image" class="img-fluid" />
-                </div>
-                <form action="#" method="post">
-                  <div class="form-group first">
-                    <label for="username">Login / email</label>
-                    <input type="text" class="form-control" id="username" />
-    
-                  </div>
-                  <div class="form-group last mb-4">
-                    <label for="password">Senha</label>
-                    <input type="password" class="form-control" id="password" />  
-                  </div>
-                  <input type="submit" value="Entrar" class="rounded-pill btn btn-primary" />
-
-                </form>
-                </div>
-              </div> 
-              
+        <div className={'bg-white-blue flex flex-2 flex-row bg-image w-screen h-screen p-2'}>
+            <Header/>
+            <div className={'w-full flex flex-col h-full gap-10 items-center justify-center'}>
+                <img src={DoeTempo} alt={'Logo da empresa AMPI'} className={'scale-150'}/>
+                <LoginForm/>
             </div>
-          </div>
-
         </div>
-        
-      </div>
-      </Content>
+
     )
 }

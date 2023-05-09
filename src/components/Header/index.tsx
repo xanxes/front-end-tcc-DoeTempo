@@ -1,16 +1,15 @@
+import {CaretLeft} from "phosphor-react";
+import Voluntaries from "../../assets/img/voluntaries.svg";
 
-import iconImg from '../../assets/icon_return.svg'
-import { Container, Content } from './styles'
+export function Header() {
+	return (
+			<div className={'h-full w-full flex flex-col justify-between'}>
+				<button className={'btn w-40 rounded-full bg-blueberry border-0 text-white flex justify-center hover:bg-accent'} type={'submit'}>
+					<CaretLeft size={32} />
+					Voltar
+				</button>
+				<img src={Voluntaries} className={'align-center hidden lg:block'} alt={'image for peoples united'}/>
+			</div>
 
-export function Header(){
-    return (
-    <Container>
-        <Content>
-        <button type="button">
-            <img src={iconImg} alt="Return" />
-            <p>VOLTAR</p>
-        </button>
-        </Content>
-    </Container>
-    )
+	)
 }
